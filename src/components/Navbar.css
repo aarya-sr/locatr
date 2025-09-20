@@ -1,0 +1,78 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0.8rem 2rem ;
+    background-color:#7f96c7;
+    color: whitesmoke;
+    flex-wrap: wrap;
+    box-shadow:0 2px 5px rgba(0,0,0,0.1);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 70px;
+    z-index: 1000;
+    /* line-height: 1; */
+}
+
+.logo{
+    font-weight: bolder;
+    font-size: 1.8rem;
+    height:45px;
+    
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    height: 45px;
+}
+.search-bar input{
+    flex: 1;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    height: 100%;
+}
+.search-button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    /* color: #2563eb */
+    font-size: 1.2rem;
+}
+.search-button:hover{
+    background-color: #5b719f;
+}
+.nav-actions{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: none;
+    border: none;
+    height: 40px;
+}
+.posts{
+    background: none;
+    border: none;
+}
+.posts:hover{
+    background-color:#5b719f ;
+}
+.notifications{
+    background: none;
+    border: none;
+}
+.notifications:hover{
+    background-color:#5b719f ;
+}
+.account{
+    background: none;
+    border: none;
+}
+.account:hover{
+    background-color:#5b719f ;
+}
