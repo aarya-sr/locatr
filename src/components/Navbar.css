@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding:0.8rem 2rem ;
-    background-color:#7f96c7;
+    background-color:#4572d2;
     color: whitesmoke;
     flex-wrap: wrap;
     box-shadow:0 2px 5px rgba(0,0,0,0.1);
@@ -45,7 +45,7 @@
     font-size: 1.2rem;
 }
 .search-button:hover{
-    background-color: #5b719f;
+    background-color:  #2d55c2;
 }
 .nav-actions{
     display: flex;
@@ -60,19 +60,19 @@
     border: none;
 }
 .posts:hover{
-    background-color:#5b719f ;
+    background-color: #2d55c2 ;
 }
 .notifications{
     background: none;
     border: none;
 }
 .notifications:hover{
-    background-color:#5b719f ;
+    background-color: #2d55c2;
 }
 .account{
     background: none;
     border: none;
 }
 .account:hover{
-    background-color:#5b719f ;
+    background-color: #2d55c2 ;
 }
